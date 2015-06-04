@@ -1,0 +1,33 @@
+{
+  "name": "tgg",
+  "version": "1.0.0",
+  "description": "テストですー。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server htdocs --files=\"**/*.html,**/*.css,**/*.js\" --open=\"external\" --xip --tunnel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mga-maruyama/tgg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mga-maruyama/tgg/issues"
+  },
+  "homepage": "https://github.com/mga-maruyama/tgg",
+  "devDependencies": {
+    "browser-sync": "^2.7.3",
+    "browsersync-ssi": "soenkekluth/browsersync-ssi",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-changed": "^1.2.1",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jsbeautifier": "0.0.8",
+    "gulp-plumber": "^1.0.1",
+    "gulp-prettify": "^0.3.0"
+  }
+}
